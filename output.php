@@ -47,82 +47,8 @@ if($asu == "Asuransi Jiwa"){
     
 $hartot = $harga*$jumtik-$diskon+$harbag+$hargaasu;
 
-// foreach($_POST['asu'] as $value){
-//     echo $value.",";
-// }
-
-//kelas dan fasilitas
-// if($kelas == "EKONOMI"){
-//     $harga = 1000000;
-//     echo "Ekonomi (Air mineral)";
-
-// }elseif($kelas == "BISNIS"){
-//     $harga = 2000000;
-//     echo "Bisnis (Snack)";
-
-// }else($kelas == "EKSEKUTIF"){
-//     $harga = 3000000;
-//     echo "Eksekutif (Makan)";
-// }
-
-// //diskon
-// if($jumtik >= 3){
-//     $diskon=(($harga*30)/100);
-// }elseif($jumtik <= 3){
-//     $diskon=$harga;
-// }
-
-// //bagasi dan hartot
-
-// if($bagasi=="5"){
-//     $harbag=100000;
-// }elseif($bagasi=="10"){
-//     $harbag=150000;
-// }else($bagasi=="15"){
-//     $harbag=200000;
-// }
-
-// //asuransi
-// if($asu=="Asuransi Jiwa"){
-//     echo'Asuransi Jiwa';
-//     $hargaasu=50000;
-// }elseif($asu=="Asuransi Kecelakaan"){
-//     echo'Asuransi Kecelakaan';
-//     $hargaasu=50000;
-// }else($asu=="Asuransi Keterlambatan"){
-//     echo'Asuransi Keterlambatan';
-//     $hargaasu=50000;
-// }
-
-// $hartot=$harga*$jumtik-$diskon+$harbag+$hargaasu;
-
 ?>
 
-
-<!-- <table border="1">
-<tr>
-<th>Nama Pemesan</th><th>:</th><th><?= $nampes;?></th>
-</tr>
-<tr>
-<td>Jumlah Tiket</td><td>:</td><td><?= $jumtik;?></td>
-</tr>
-<tr>
-<td>Kelas</td><td>:</td><td><?= $class;?></td>
-</tr>
-<tr>
-<td>Tujuan</td><td>:</td><td><?= $tujuan;?></td>
-</tr>
-<tr>
-<td>Bagasi</td><td>:</td><td><?= $bagasi;?></td>
-</tr>
-<tr>
-<td>Asuransi</td><td>:</td>
-<td><?php foreach ($_POST['asu'] as $a) { ?><?= $a . ",";?><?php } ?></td>
-</tr>
-<tr>
-<td>Total Harga</td><td>:</td><td><?= $hartot;?></td>
-</tr>
-</table> -->
 
 <!DOCTYPE html>
 <html lang="en">
